@@ -1,11 +1,11 @@
-@background: #0a0f23;
+@background: #282828;
 @foreground: #484848;
 .CodeMirror, .CodeMirror-scroll {
-    background-color: #1d1f21;
-    color: @foreground;
+    background-color: #282828; /*1d1f21*/
+    color: #fa8700;
 }
 .CodeMirror-focused .CodeMirror-activeline-background {
-    background: #0a0f23;
+    background: #31036f;
 }
 .show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
     box-shadow: inset 15px 0 0 0 #000;
@@ -13,43 +13,43 @@
 .CodeMirror-focused .CodeMirror-activeline {
     .CodeMirror-gutter-elt {
         background: rgba(0, 0, 0, 0.2);
-        color: #fff;
+        color: #ff0000;
     }
     .inline-widget .CodeMirror-gutter-elt {
         color: #767676;    
     }
 }
-.cm-atom, .cm-string, .cm-string-2, .cm-hr {color: #02f0ff;}
-.cm-number, .cm-attribute, .cm-plus {color: #08ff02;}
-.cm-def, .cm-property {color: #027fff;}
-.cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-meta, .cm-bracket {color: @foreground;}
-.cm-comment {color: #570000;}
-.cm-error, .cm-minus {color: #dc322f;}
+.cm-atom, .cm-string, .cm-string-2, .cm-hr {color: #f0ff00;}
+.cm-number, .cm-attribute, .cm-plus {color: #ff0000;}
+.cm-def, .cm-property {color: #d94200;}
+.cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-meta, .cm-bracket {color: #389301;}
+.cm-comment {color: #0018ff;}
+.cm-error, .cm-minus {color: #00ff06;}
 .cm-header {color: #db9600;}
-.cm-link {color: #b77fdb; text-decoration: none;}
+.cm-link {color: #ff00e4; text-decoration: none;}
 .cm-rangeinfo {color: #6c71c4;}
-.cm-keyword, .cm-qualifier, .cm-builtin, .cm-tag, .cm-quote {color: #006f9b;}
+.cm-keyword, .cm-qualifier, .cm-builtin, .cm-tag, .cm-quote {color: #75b9ff;}
 .CodeMirror-searching {
-    background-color: #d3cd69;
+    background-color: #4d99c1;
     &.searching-current-match {
-        background-color: #f6a644;
+        background-color: #764dc1;
     }
 }
 .CodeMirror-cursor {
     border-left: 1px solid #c5c8c6 !important;
 }
 .CodeMirror-gutters {
-    background-color: #373737;
+    background-color: #282828;
     border-right: none;
 }
 .CodeMirror-linenumber {
-    color: #143201;
+    color: #a35400;
 }
 .CodeMirror .CodeMirror-selected {
     background: #333f48;
 }
 .CodeMirror-focused .CodeMirror-selected {
-    background: #0050a0;
+    background: #324a5d;
 }
 .CodeMirror-matchingbracket, .CodeMirror-matchingtag {
     background-color: #2e5c00;
