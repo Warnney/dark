@@ -1,0 +1,16 @@
+{
+    "name": "warnney.DarkCloud",
+    "title": "Dark Cloud",
+    "description": "Dark and smooth, rest your eyes.",
+    "homepage": "https://github.com/yourname/my-shiny-theme",
+    "version": "1.0.0",
+    "author": "Warnney <warnneysalvatore@outlook.com>",
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": [
+        "theme"
+    ]
+}
